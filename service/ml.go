@@ -36,8 +36,8 @@ type MlRequest struct {
 
 var (
 	// TODO: Replace this project name and model name with your configuration.
-	project = "around-75015"
-	model = "face"
+	project = "steadfast-pivot-205321"
+	model = "face_abc"
 	url   = "https://ml.googleapis.com/v1/projects/" + project + "/models/" + model + ":predict"
 	scope = "https://www.googleapis.com/auth/cloud-platform"
 )
